@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{449E28C7-1F25-49DE-A761-2D1BC1A25539}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "UnitTestProject\Algorithm.csproj", "{449E28C7-1F25-49DE-A761-2D1BC1A25539}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
