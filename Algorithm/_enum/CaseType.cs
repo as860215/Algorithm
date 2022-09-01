@@ -1,4 +1,4 @@
-namespace UnitTestProject
+namespace Algorithm
 {
     /// <summary>案件種類</summary>
     public enum CaseType

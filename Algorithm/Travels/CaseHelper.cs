@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace UnitTestProject.Travels
+namespace Algorithm.Travels
 {
     /// <summary>案件小幫手</summary>
     internal static class CaseHelper

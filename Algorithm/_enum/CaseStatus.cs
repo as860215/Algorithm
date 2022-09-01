@@ -1,6 +1,6 @@
 using System.ComponentModel;
 
-namespace UnitTestProject
+namespace Algorithm
 {
     /// <summary>ª¬ºA</summary>
     public enum CaseStatus

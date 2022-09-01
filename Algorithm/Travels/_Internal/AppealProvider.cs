@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace UnitTestProject.Travels
+namespace Algorithm.Travels
 {
     /// <summary>申訴案件提供者</summary>
     internal class AppealProvider : CaseTypeProviderBase

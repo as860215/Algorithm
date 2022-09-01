@@ -1,6 +1,6 @@
 using System;
 
-namespace UnitTestProject.Travels
+namespace Algorithm.Travels
 {
     /// <summary>案件提供者工廠</summary>
     internal static class CaseTypeProviderFactory

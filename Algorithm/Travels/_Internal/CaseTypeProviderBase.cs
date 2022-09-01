@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace UnitTestProject.Travels
+namespace Algorithm.Travels
 {
     /// <summary>案件提供者基底</summary>
     internal abstract class CaseTypeProviderBase
