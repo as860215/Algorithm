@@ -22,6 +22,7 @@ namespace Algorithm.Travels
 
             var trips = new List<CaseStatus>();
             TraverseHelper.Traverse((status) => caseType.CreateProvider().GetNextStatus(status), CaseStatus.Create, destination, trips);
+            trips.Should().NotBeEmpty($"旅途必須要找的到終點{destination}");
             // 因為trips會是從終點新增，將trips反向
             trips.Reverse();
 
