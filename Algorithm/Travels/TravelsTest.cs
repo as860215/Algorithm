@@ -13,9 +13,6 @@ namespace Algorithm.Travels
         public TravelsTest(ITestOutputHelper output)
             => this.output = output;
 
-        /// <summary>¥Øªº¦a</summary>
-        private const CaseStatus Destination = CaseStatus.Closed;
-
         [Theory]
         [InlineData(CaseType.Appeal)]
         public void Travels(CaseType caseType)
