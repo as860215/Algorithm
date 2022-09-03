@@ -7,7 +7,7 @@ namespace Algorithm.Travels
     internal class AppealProvider : CaseTypeProviderBase
     {
         /// <inheritdoc/>
-        public override List<CaseStatus>? GetNextStatus(CaseStatus caseStatus)
+        public override List<CaseStatus> GetNextStatus(CaseStatus caseStatus)
             => caseStatus switch
             {
                 CaseStatus.Create => new List<CaseStatus> { CaseStatus.UserModify },
@@ -17,7 +17,7 @@ namespace Algorithm.Travels
                 CaseStatus.CustomerServiceCheck => new List<CaseStatus> { CaseStatus.UserReplenish, CaseStatus.AdminModify },
                 CaseStatus.AdminModify => new List<CaseStatus> { CaseStatus.CustomerServiceCheck, CaseStatus.AdminConfirm },
                 CaseStatus.AdminConfirm => new List<CaseStatus> { CaseStatus.Closed, CaseStatus.AdminModify },
-                _ => null
+                _ => new List<CaseStatus>()
             };
     }
 }

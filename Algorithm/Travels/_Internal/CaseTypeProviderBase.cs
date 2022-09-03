@@ -9,6 +9,6 @@ namespace Algorithm.Travels
         /// <summary>取得下一關可能的關卡</summary>
         /// <param name="caseStatus">目前關卡</param>
         /// <returns>下一關可能的關卡</returns>
-        public abstract List<CaseStatus>? GetNextStatus(CaseStatus caseStatus);
+        public abstract List<CaseStatus> GetNextStatus(CaseStatus caseStatus);
     }
 }
